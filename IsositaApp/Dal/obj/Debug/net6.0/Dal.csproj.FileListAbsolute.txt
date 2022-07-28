@@ -1,0 +1,30 @@
+C:\Users\malam\source\repos\Dal\bin\Debug\net6.0\Dal.deps.json
+C:\Users\malam\source\repos\Dal\bin\Debug\net6.0\Dal.dll
+C:\Users\malam\source\repos\Dal\bin\Debug\net6.0\ref\Dal.dll
+C:\Users\malam\source\repos\Dal\bin\Debug\net6.0\Dal.pdb
+C:\Users\malam\source\repos\Dal\bin\Debug\net6.0\Logic.dll
+C:\Users\malam\source\repos\Dal\bin\Debug\net6.0\Logic.pdb
+C:\Users\malam\source\repos\Dal\obj\Debug\net6.0\Dal.csproj.AssemblyReference.cache
+C:\Users\malam\source\repos\Dal\obj\Debug\net6.0\Dal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\malam\source\repos\Dal\obj\Debug\net6.0\Dal.AssemblyInfoInputs.cache
+C:\Users\malam\source\repos\Dal\obj\Debug\net6.0\Dal.AssemblyInfo.cs
+C:\Users\malam\source\repos\Dal\obj\Debug\net6.0\Dal.csproj.CoreCompileInputs.cache
+C:\Users\malam\source\repos\Dal\obj\Debug\net6.0\Dal.csproj.CopyComplete
+C:\Users\malam\source\repos\Dal\obj\Debug\net6.0\Dal.dll
+C:\Users\malam\source\repos\Dal\obj\Debug\net6.0\ref\Dal.dll
+C:\Users\malam\source\repos\Dal\obj\Debug\net6.0\Dal.pdb
+C:\Users\malam\OneDrive\Desktop\HBO\Semester 2\s2-individueel\IsositaApp\Dal\bin\Debug\net6.0\Dal.deps.json
+C:\Users\malam\OneDrive\Desktop\HBO\Semester 2\s2-individueel\IsositaApp\Dal\bin\Debug\net6.0\Dal.dll
+C:\Users\malam\OneDrive\Desktop\HBO\Semester 2\s2-individueel\IsositaApp\Dal\bin\Debug\net6.0\ref\Dal.dll
+C:\Users\malam\OneDrive\Desktop\HBO\Semester 2\s2-individueel\IsositaApp\Dal\bin\Debug\net6.0\Dal.pdb
+C:\Users\malam\OneDrive\Desktop\HBO\Semester 2\s2-individueel\IsositaApp\Dal\bin\Debug\net6.0\Logic.dll
+C:\Users\malam\OneDrive\Desktop\HBO\Semester 2\s2-individueel\IsositaApp\Dal\bin\Debug\net6.0\Logic.pdb
+C:\Users\malam\OneDrive\Desktop\HBO\Semester 2\s2-individueel\IsositaApp\Dal\obj\Debug\net6.0\Dal.csproj.AssemblyReference.cache
+C:\Users\malam\OneDrive\Desktop\HBO\Semester 2\s2-individueel\IsositaApp\Dal\obj\Debug\net6.0\Dal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\malam\OneDrive\Desktop\HBO\Semester 2\s2-individueel\IsositaApp\Dal\obj\Debug\net6.0\Dal.AssemblyInfoInputs.cache
+C:\Users\malam\OneDrive\Desktop\HBO\Semester 2\s2-individueel\IsositaApp\Dal\obj\Debug\net6.0\Dal.AssemblyInfo.cs
+C:\Users\malam\OneDrive\Desktop\HBO\Semester 2\s2-individueel\IsositaApp\Dal\obj\Debug\net6.0\Dal.csproj.CoreCompileInputs.cache
+C:\Users\malam\OneDrive\Desktop\HBO\Semester 2\s2-individueel\IsositaApp\Dal\obj\Debug\net6.0\Dal.csproj.CopyComplete
+C:\Users\malam\OneDrive\Desktop\HBO\Semester 2\s2-individueel\IsositaApp\Dal\obj\Debug\net6.0\Dal.dll
+C:\Users\malam\OneDrive\Desktop\HBO\Semester 2\s2-individueel\IsositaApp\Dal\obj\Debug\net6.0\ref\Dal.dll
+C:\Users\malam\OneDrive\Desktop\HBO\Semester 2\s2-individueel\IsositaApp\Dal\obj\Debug\net6.0\Dal.pdb

@@ -1,0 +1,59 @@
+﻿@model IEnumerable<Isotita.Models.JobViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+@if (TempData["JobAdded"] != null)
+{
+    <p class="alert alert-success">@TempData["JobAdded"]</p>
+}
+@if (TempData["JobUpdated"] != null)
+{
+    <p class="alert alert-success">@TempData["JobUpdated"]</p>
+}
+@if (TempData["JobDeleted"] != null)
+{
+    <p class="alert alert-success">@TempData["JobDeleted"]</p>
+}
+<h1>Vacatures Dashboard</h1>
+
+<p>
+    <a asp-action="AddJob" class="btn btn-primary">Voeg een nieuwe vacature toe</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    <a class="btn btn-info" asp-controller="Job" asp-action="GetAppliedsPerJob" asp-route-jobId="@item.Id">Sollicitanten</a> |
+                    <a class="btn btn-warning" asp-controller="Job" asp-action="Edit" asp-route-jobId="@item.Id">Aanpassen</a> |
+                    <a onclick="return confirm('Weet u zeker dat u deze vacature wilt verwijderen?');" class="btn btn-danger" asp-controller="Job" asp-action="Delete" asp-route-jobId="@item.Id">Verwijderen</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

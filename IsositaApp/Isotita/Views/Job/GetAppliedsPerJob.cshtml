@@ -1,0 +1,129 @@
+﻿@model Isotita.Models.JobViewModel
+
+@{
+    ViewData["Title"] = "GetAppliedsPerJob";
+}
+@if (TempData["success_message"] != null)
+{
+    <p class="alert alert-success">@TempData["success_message"]</p>
+}
+@if (TempData["error_message"] != null)
+{
+    <p class="alert alert-danger">@TempData["error_message"]</p>
+}
+
+
+<h1>Sollicitanten Per vacature</h1>
+
+<div>
+    <h4>Vacaturegegevens</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            VacatureId
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Requirements)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Requirements)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Experience)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Experience)
+        </dd>
+    </dl>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Email
+                </th>
+                <th>
+                    CV
+                </th>
+                <th>
+                    Motivatiebief
+                </th>
+                <th>
+                    Status
+                </th>
+                <th>
+                    Acties
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.appliedStatusViewModels)
+            {
+                <tr>
+                     @if (item.Status)
+                    {
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Email)
+                        </td>
+                    }
+                    else
+                    {
+                        <td>
+                            Email wordt bekend als de sollicitant is aangenomen.
+                        </td>
+                    }
+                    <td>
+                        <a class="btn btn-success" asp-action="DownloadFile" asp-route-fileName="@item.CV">CV downloden</a>
+                    </td>
+                    <td>
+                        <a class="btn btn-warning" asp-action="DownloadFile" asp-route-fileName="@item.MotivationLetter">Motivatiebrief downloden</a>
+                    </td>
+                    <td>
+                        @if (item.Status && item.Treated)
+                        {
+                            <a class="btn btn-success disabled">Aangenomen</a>
+                        }
+                        else if (!item.Status && !item.Treated)
+                        {
+                            <a class="btn btn-warning disabled">Nog niet behandeled</a>
+                        }
+                        else
+                        {
+                            <a class="btn btn-danger disabled">Gewiegeerd</a>
+                        }
+                    </td>
+                    <td>
+                        @if (!item.Treated)
+                        {
+                            <a class=" btn btn-success" asp-controller="Applied" asp-action="ChangeStatus" asp-route-status="true" asp-route-jobId="@Model.Id" asp-route-email="@item.Email">Aannemen</a>
+
+                            <p></p>
+                            <a class=" btn btn-danger" asp-controller="Applied" asp-action="ChangeStatus" asp-route-status="false" asp-route-jobId="@Model.Id" asp-route-email="@item.Email">Weigeren</a>
+                        }
+                        else
+                        {
+                            <p class="alert alert-info disabled">Deze sollicitatie is al behandeled</p>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <form asp-action="GetAppliedsPerJob">
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>

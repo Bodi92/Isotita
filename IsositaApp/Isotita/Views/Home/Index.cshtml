@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@if(TempData["Registered"] != null )
+{
+    <p class="alert alert-success">@TempData["Registered"]</p>
+}
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Welkom bij Isotita</p>
+</div>

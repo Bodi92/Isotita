@@ -1,0 +1,24 @@
+C:\Users\malam\source\repos\Logic\bin\Debug\net6.0\Logic.deps.json
+C:\Users\malam\source\repos\Logic\bin\Debug\net6.0\Logic.dll
+C:\Users\malam\source\repos\Logic\bin\Debug\net6.0\ref\Logic.dll
+C:\Users\malam\source\repos\Logic\bin\Debug\net6.0\Logic.pdb
+C:\Users\malam\source\repos\Logic\obj\Debug\net6.0\Logic.csproj.AssemblyReference.cache
+C:\Users\malam\source\repos\Logic\obj\Debug\net6.0\Logic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\malam\source\repos\Logic\obj\Debug\net6.0\Logic.AssemblyInfoInputs.cache
+C:\Users\malam\source\repos\Logic\obj\Debug\net6.0\Logic.AssemblyInfo.cs
+C:\Users\malam\source\repos\Logic\obj\Debug\net6.0\Logic.csproj.CoreCompileInputs.cache
+C:\Users\malam\source\repos\Logic\obj\Debug\net6.0\Logic.dll
+C:\Users\malam\source\repos\Logic\obj\Debug\net6.0\ref\Logic.dll
+C:\Users\malam\source\repos\Logic\obj\Debug\net6.0\Logic.pdb
+C:\Users\malam\OneDrive\Desktop\HBO\Semester 2\s2-individueel\IsositaApp\Logic\bin\Debug\net6.0\Logic.deps.json
+C:\Users\malam\OneDrive\Desktop\HBO\Semester 2\s2-individueel\IsositaApp\Logic\bin\Debug\net6.0\Logic.dll
+C:\Users\malam\OneDrive\Desktop\HBO\Semester 2\s2-individueel\IsositaApp\Logic\bin\Debug\net6.0\ref\Logic.dll
+C:\Users\malam\OneDrive\Desktop\HBO\Semester 2\s2-individueel\IsositaApp\Logic\bin\Debug\net6.0\Logic.pdb
+C:\Users\malam\OneDrive\Desktop\HBO\Semester 2\s2-individueel\IsositaApp\Logic\obj\Debug\net6.0\Logic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\malam\OneDrive\Desktop\HBO\Semester 2\s2-individueel\IsositaApp\Logic\obj\Debug\net6.0\Logic.AssemblyInfoInputs.cache
+C:\Users\malam\OneDrive\Desktop\HBO\Semester 2\s2-individueel\IsositaApp\Logic\obj\Debug\net6.0\Logic.AssemblyInfo.cs
+C:\Users\malam\OneDrive\Desktop\HBO\Semester 2\s2-individueel\IsositaApp\Logic\obj\Debug\net6.0\Logic.csproj.CoreCompileInputs.cache
+C:\Users\malam\OneDrive\Desktop\HBO\Semester 2\s2-individueel\IsositaApp\Logic\obj\Debug\net6.0\Logic.dll
+C:\Users\malam\OneDrive\Desktop\HBO\Semester 2\s2-individueel\IsositaApp\Logic\obj\Debug\net6.0\ref\Logic.dll
+C:\Users\malam\OneDrive\Desktop\HBO\Semester 2\s2-individueel\IsositaApp\Logic\obj\Debug\net6.0\Logic.pdb
+C:\Users\malam\OneDrive\Desktop\HBO\Semester 2\s2-individueel\IsositaApp\Logic\obj\Debug\net6.0\Logic.csproj.AssemblyReference.cache

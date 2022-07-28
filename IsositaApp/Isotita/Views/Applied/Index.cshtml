@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Isotita.Models.JobViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+@if (TempData["AppliedSuccessvol"] != null)
+{
+    <p class="alert alert-success">@TempData["AppliedSuccessvol"]</p>
+}
+<h1>Vacatures Overzicht</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.companyViewModel.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.companyViewModel.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    <a class="btn btn-primary" asp-controller="Applied" asp-action="Details" asp-route-jobId="@item.Id">Verder Lezen</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

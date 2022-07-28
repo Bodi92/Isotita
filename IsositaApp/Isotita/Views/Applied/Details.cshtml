@@ -1,0 +1,47 @@
+﻿@model Isotita.Models.JobViewModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Vacaturegegevens</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.companyViewModel.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.companyViewModel.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Requirements)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Requirements)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Experience)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Experience)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a class="btn btn-primary" asp-controller="Applied" asp-action="ApplyOnJob" asp-route-jobId="@Model.Id">Solliciteren</a>
+    <a asp-action="Index">Terug naar vacatures overzicht</a>
+</div>

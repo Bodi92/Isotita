@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "1516145c-e220-4ee4-b5d7-022ecc6b072c": {
+      "ProjectGuid": "1516145c-e220-4ee4-b5d7-022ecc6b072c",
+      "DisplayName": "Isotita",
+      "ColorIndex": 0
+    },
+    "8e5d7ff0-1fa2-4f35-b4c7-e3875b193758": {
+      "ProjectGuid": "8e5d7ff0-1fa2-4f35-b4c7-e3875b193758",
+      "DisplayName": "Factory",
+      "ColorIndex": 1
+    },
+    "767e694c-093b-46fc-a11f-7fd4988707d7": {
+      "ProjectGuid": "767e694c-093b-46fc-a11f-7fd4988707d7",
+      "DisplayName": "Dal",
+      "ColorIndex": 2
+    },
+    "f0234c62-b268-4420-85fe-bdf0c84dc8fc": {
+      "ProjectGuid": "f0234c62-b268-4420-85fe-bdf0c84dc8fc",
+      "DisplayName": "Logic",
+      "ColorIndex": 3
+    },
+    "2ae44a28-7ea3-4d89-84fb-149fcffbbe45": {
+      "ProjectGuid": "2ae44a28-7ea3-4d89-84fb-149fcffbbe45",
+      "DisplayName": "IsotitaTestProject",
+      "ColorIndex": 4
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 5
+}

@@ -1,0 +1,56 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e1b17e39-f6b0-45f6-93cd-68413a403cdd": {
+      "ProjectGuid": "e1b17e39-f6b0-45f6-93cd-68413a403cdd",
+      "DisplayName": "Factory",
+      "ColorIndex": 0
+    },
+    "4d91c85d-1560-4dd4-8fd0-315a02441fff": {
+      "ProjectGuid": "4d91c85d-1560-4dd4-8fd0-315a02441fff",
+      "DisplayName": "Dal",
+      "ColorIndex": 1
+    },
+    "3b8214f5-628e-48a7-8348-0b63808e770b": {
+      "ProjectGuid": "3b8214f5-628e-48a7-8348-0b63808e770b",
+      "DisplayName": "Logic",
+      "ColorIndex": 2
+    },
+    "b130e376-41a4-4aef-876e-a0dad1f1207f": {
+      "ProjectGuid": "b130e376-41a4-4aef-876e-a0dad1f1207f",
+      "DisplayName": "IsositaApp",
+      "ColorIndex": 3
+    },
+    "23479ed8-770d-428f-aa58-36f8ab7b90e8": {
+      "ProjectGuid": "23479ed8-770d-428f-aa58-36f8ab7b90e8",
+      "DisplayName": "Isotita",
+      "ColorIndex": 4
+    },
+    "3a0b6f3c-3ea8-4562-8025-bfc50bf16085": {
+      "ProjectGuid": "3a0b6f3c-3ea8-4562-8025-bfc50bf16085",
+      "DisplayName": "Isotita",
+      "ColorIndex": 5
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "67bca382-ed85-4eb4-befc-053ed528e1e9": {
+      "ProjectGuid": "67bca382-ed85-4eb4-befc-053ed528e1e9",
+      "DisplayName": "Services",
+      "ColorIndex": 6
+    },
+    "85be4b79-7da2-492b-9dc4-915692996904": {
+      "ProjectGuid": "85be4b79-7da2-492b-9dc4-915692996904",
+      "DisplayName": "IsotitaUnitTest",
+      "ColorIndex": 7
+    },
+    "6e4e9bf8-7924-4cf5-9604-fe5154821d57": {
+      "ProjectGuid": "6e4e9bf8-7924-4cf5-9604-fe5154821d57",
+      "DisplayName": "IsotitaTest",
+      "ColorIndex": 8
+    }
+  },
+  "NextColorIndex": 9
+}
